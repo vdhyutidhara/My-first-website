@@ -8,7 +8,7 @@
 ### Functonality of MasaiCrypto Website:
 It has four functional tab, each show/do various information/task:
 
-** FIRST TAB:
+* FIRST TAB:
  
 * Show information related to cryptocurrency like
   * What is Cryptocurrency?
@@ -16,14 +16,14 @@ It has four functional tab, each show/do various information/task:
   * Architecture of cryptocurrency
   * Economics of cryptocurrency
   
- ** SECOND TAB:
+ * SECOND TAB:
  
  * This tab gives list and information related to popular cryptocurrency.
  
-** THIRD TAB:
+* THIRD TAB:
 
 * This tab will give the top list of crypto derivative exchanges recommendation.
 
-** FOURTH TAB:
+* FOURTH TAB:
 
 * This tab will show the latest top Cryptocurrencies Rate List by Market Capitalization.
