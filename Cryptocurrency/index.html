@@ -232,7 +232,18 @@
                             </div>
                           </div>
                           <button id="get-results-Exchlist" class="btn btn-secondary">GET TOP LIST</button>
-                          <div id="resExchList"></div>
+                          <div>
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Name</th>
+                                  </tr>
+                                </thead>
+                                <tbody id="resExchlist">
+                                </tbody>
+                            </table>
+                          </div>
                           <!-- -----------------------------Derivatives Exchange List Ends------------------------------- ---->
                       </div>
                       <div class="tab-pane fade" id="list-market" role="tabpanel" aria-labelledby="list-market-list">
@@ -246,7 +257,18 @@
                         </div>
                           
                           <button id="get-results-Exchrates" class="btn btn-secondary">GET LATEST EXCHANGE RATES</button>
-                          <div id="resExchrates"></div>
+                          <div>
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Bitcoin</th>
+                                    <th scope="col">Rate</th>
+                                  </tr>
+                                </thead>
+                                <tbody id="resExchrates">
+                                </tbody>
+                            </table>
+                          </div>
 
                           <!-- ------------------------------Exchange Rate Ends----------------------------------------- -->
                       </div>

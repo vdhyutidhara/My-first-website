@@ -19,17 +19,12 @@ function getRepo( ){
 }
 
 function display(response){
-    var res = document.getElementById("resExchList")
-    for(var i=0; i<response.length; i++){
-
-        var row = document.createElement('div')
+    var res = document.getElementById("resExchlist")
+    
+    for( key in response ){
         
-        for( key in response[i] ){
-            var div = document.createElement('div')
-            div.textContent = key + " : " + response[i][key]
-            row.append(div)
-        }
-        resExchList.append(row)
+
+       
 
     }
     
@@ -57,20 +52,26 @@ function getRepo2( ){
 }
 
 function display2(response){
-    
+    var mydata = response["data"]["total_market_cap"]
     var res = document.getElementById("resExchrates")
-    for(var i=0; i<100; i++){
-
-        var row = document.createElement('div')
+    // res.innerHTML = ""
+    for( i in mydata){
+        // console.log(i.toUpperCase(),mydata[i])
         
-        for( key in response.data.total_market_cap[i] ){
-            var div = document.createElement('div')
-            div.textContent = key + " : " + response.data.total_market_cap[i][key]
-            row.append(div)
-        }
-        resExchrates.append(row)
+        var tr = document.createElement('tr')
 
+        var td1 = document.createElement('td')
+        var td2 = document.createElement('td')
+
+        td1.innerHTML = i.toUpperCase()
+        td2.innerHTML = mydata[i]
+
+        tr.appendChild(td1)
+        tr.appendChild(td2)
+
+        res.appendChild(tr)
     }
+
     
 }
 
