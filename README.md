@@ -1,8 +1,13 @@
 # MasaiCrypto Project
 ## A Cryptocurrency Information website
 
-### HOMEPAGE OF THE PROJECT:
+## Technology Used:
+* HTML
+* CSS
+* Javascript
+* Bootstrap
 
+### HOMEPAGE OF THE PROJECT:
 ![Homepage](https://github.com/vinaytest75/masai-project-3/blob/master/Cryptocurrency/Resources/homepage.jpg)
 
 ### Functonality of MasaiCrypto Website:
