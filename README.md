@@ -17,13 +17,13 @@ It has four functional tab, each show/do various information/task:
   * Economics of cryptocurrency
   
  * SECOND TAB:
- 
- * This tab gives list and information related to popular cryptocurrency.
+ ![Types](https://raw.githubusercontent.com/vinaytest75/masai-project-3/master/Cryptocurrency/Resources/Types.png)
+  * This tab gives list and information related to popular cryptocurrency.
  
 * THIRD TAB:
-
+![Derivatives](https://raw.githubusercontent.com/vinaytest75/masai-project-3/master/Cryptocurrency/Resources/Derivatives.png)
 * This tab will give the top list of crypto derivative exchanges recommendation.
 
 * FOURTH TAB:
-
+![Exchanges](https://github.com/vinaytest75/masai-project-3/blob/master/Cryptocurrency/Resources/Exchanges.png)
 * This tab will show the latest top Cryptocurrencies Rate List by Market Capitalization.
